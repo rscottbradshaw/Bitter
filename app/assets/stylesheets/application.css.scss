@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+
+body {
+    background-image: image-url('brickwall.png');
+    background-attachment: fixed;
+}
+
+.panel {
+    margin-top: 20px;
+}
+
+.apple {
+    margin-top: 100px;
+
+}
