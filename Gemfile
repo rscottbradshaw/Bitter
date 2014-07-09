@@ -36,6 +36,14 @@ gem 'pg'
 
 gem 'rails_12factor'
 
+gem 'carrierwave'
+
+gem 'mini_magick'
+
+gem 'acts-as-taggable-on'
+
+
+
 
 
 # Use ActiveModel has_secure_password
