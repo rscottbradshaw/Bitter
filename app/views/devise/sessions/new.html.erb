@@ -18,6 +18,10 @@
                 <div class="form-actions right inline">
                   <%= f.button :submit, "Sign in", class: "radius round small" %>
                 </div>
+
+            <% if current_user %>
+            <%= current_user %>
+            <% end %>
             <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
           </div>
 

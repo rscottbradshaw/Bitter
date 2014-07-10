@@ -42,7 +42,14 @@ gem 'mini_magick'
 
 gem 'acts-as-taggable-on'
 
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
 
+gem 'faker'
+
+gem "acts_as_follower"
 
 
 
