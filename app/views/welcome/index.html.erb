@@ -64,8 +64,12 @@
 
 
   <aside class="large-3 columns">
+    <% provide(:title, current_user.username) %>
+    <h1>
+      <%= gravatar_for current_user %>
+      <%= current_user.username %>
+    </h1>
       <img src="http://placehold.it/200x200&text=[img]"/>
-      <p><%= username_or_email %></p>
   </aside>
 
 
