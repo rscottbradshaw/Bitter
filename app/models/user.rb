@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
   attr_accessor :login
   validates :username, :uniqueness => { :case_sensitive => false }
-  validates :username, presence: true, length: { maximum: 15 }
+  validates :username, presence: true, length: { maximum: 30 }
   validates :email, presence: true
 
   # Include default devise modules. Others available are:
