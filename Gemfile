@@ -49,6 +49,8 @@ gem 'faker'
 
 gem "acts_as_follower"
 
+gem 'kaminari'
+
 
 
 # Use ActiveModel has_secure_password
